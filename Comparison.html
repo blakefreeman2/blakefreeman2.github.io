@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lattitude</title>
+  <title>Comparison: Latitude vs. X </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Boot Strap 4 Imports -->
@@ -65,58 +65,46 @@
 <!-- Start of the Container to house both Summary and Visalizations -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-7">
-      <h2>Summary: Latitude vs. X
+    <div class="col-lg-12">
+      <h2>Comparison: Latitude vs. X 
         <br>
         <br>
       </h2>
-      <div class="col-md-12">
-        <p><img class = "img-sytle_1"src="Fig1.png" alt="Max Temp">
-          <br>
-          <br>
-          The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this anlysis, we first pulled data from the OpenWeatherMap API
-          to assemble a datasent on over 500 cities.<br> 
-          <br>
-          <br>
-          After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. The factors we looed at included as follows: temperaature, cloudiness, wind speed, and humidity. This site
-          provides the source data and Visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-          </p>
+      <p text-indent: 2.0em;>Click any plot to get an in-depth analysis</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-sm-3">
+          <h2> vs. Max Temperature</h2>
+          <div class="mb-3">
+            <a href="Max Temperature.html">
+              <img class="img-fluid" src="Fig1.png" alt="vs. Max Temp">
+            </a>
+          </div>
         </div>
-    </div>
-
-    <div class="col-lg ml-4">
-        <h2>Visualizations</h2> 
-        <div class="row justify-content-center">
-          <div class="col-lg-5 col-sm-3">
-            <div class="mb-3">
-              <a href="Max Temperature.html">
-                <img class="img-fluid" src="Fig1.png" alt="vs. Max Temp">
-              </a>
-            </div>
-          </div>
   
-          <div class="col-lg-5 col-sm-3">
-            <div class="mb-3">
-              <a href="Humidity.html">
-                  <img class="img-fluid" src="Fig2.png" alt="Humidity">
-              </a>
-            </div>
+        <div class="col-lg-5 col-sm-3">
+          <h2> vs. Humidity</h2>
+          <div class="mb-3">
+            <a href="Humidity.html">
+                <img class="img-fluid" src="Fig2.png" alt="Humidity">
+            </a>
           </div>
+        </div>
   
-          <div class="col-lg-5 col-sm-3">
-            <div class="mb-3">
-              <a href="Wind Speed.html">
-                <img class="img-fluid" src="Fig4.png" alt="Wind Speed">
-              </a>
-            </div>
+        <div class="col-lg-5 col-sm-3">
+          <h2> vs. Wind Speed</h2>
+          <div class="mb-3">
+            <a href="Wind Speed.html">
+              <img class="img-fluid" src="Fig4.png" alt="Wind Speed">
+            </a>
           </div>
+        </div>
   
-          <div class="col-lg-5 col-sm-3">
-            <div class="mb-3">
-              <a href="Cloudiness.html">
-                <img class="img-fluid" src="Fig3.png" alt="Cloudiness">
-              </a>
-            </div>
+        <div class="col-lg-5 col-sm-3">
+          <h2> vs. Cloudiness</h2>
+          <div class="mb-3">
+            <a href="Cloudiness.html">
+              <img class="img-fluid" src="Fig3.png" alt="Cloudiness">
+            </a>
           </div>
         </div>
       </div>
@@ -124,5 +112,7 @@
   </div>
 </div>
 
+
 </body>
 </html>
+

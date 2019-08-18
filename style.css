@@ -1,0 +1,120 @@
+
+
+h2 {
+  color: rgb(13, 175, 224);
+  padding: 25px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  float: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .column {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+  .column {
+      width: 100%;
+    }
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.dropdown-content {
+    right: 0;
+  } 
+
+.img-sytle_1 {
+    padding: 0;
+    float: left;
+    width: 50%;
+  }
+@media only screen and (max-width: 700px) {
+  .img-sytle_1 {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+  .img-sytle_1 {
+      width: 100%;
+    }
+  }
+
+
+
+.img-sytle_2 {
+    padding: 3;
+    width: 100%;
+  }
+@media only screen and (max-width: 700px) {
+  .img-sytle_2 {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+  .img-sytle_2 {
+      width: 100%;
+    }
+  }
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
