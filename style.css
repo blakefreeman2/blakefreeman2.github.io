@@ -36,15 +36,6 @@ p {
     }
   }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-.dropdown-content {
-    right: 0;
-  } 
 
 .img-sytle_1 {
     padding: 0;
@@ -79,42 +70,6 @@ p {
   
 @media only screen and (max-width: 500px) {
   .img-sytle_2 {
-      width: 100%;
-    }
-  }
-div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
-* {
-    box-sizing: border-box;
-  }
-  
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-@media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-@media only screen and (max-width: 500px) {
-    .responsive {
       width: 100%;
     }
   }
